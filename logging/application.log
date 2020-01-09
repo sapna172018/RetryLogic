@@ -1,0 +1,69 @@
+2019-11-25 10:17:13,428 DEBUG [Forwarding newSession on session null to remote] RequestAddCookies:123 - CookieSpec selected: default
+2019-11-25 10:17:13,463 DEBUG [Forwarding newSession on session null to remote] RequestAuthCache:77 - Auth cache not set in the context
+2019-11-25 10:17:13,467 DEBUG [Forwarding newSession on session null to remote] PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:27941][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2019-11-25 10:17:13,494 DEBUG [Forwarding newSession on session null to remote] PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:27941][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-11-25 10:17:13,497 DEBUG [Forwarding newSession on session null to remote] MainClientExec:235 - Opening connection {}->http://localhost:27941
+2019-11-25 10:17:13,500 DEBUG [Forwarding newSession on session null to remote] DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:27941
+2019-11-25 10:17:13,502 DEBUG [Forwarding newSession on session null to remote] DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:58538<->127.0.0.1:27941
+2019-11-25 10:17:13,503 DEBUG [Forwarding newSession on session null to remote] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2019-11-25 10:17:13,504 DEBUG [Forwarding newSession on session null to remote] MainClientExec:256 - Executing request POST /session HTTP/1.1
+2019-11-25 10:17:13,505 DEBUG [Forwarding newSession on session null to remote] MainClientExec:261 - Target auth state: UNCHALLENGED
+2019-11-25 10:17:13,507 DEBUG [Forwarding newSession on session null to remote] MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2019-11-25 10:17:13,509 DEBUG [Forwarding newSession on session null to remote] headers:133 - http-outgoing-0 >> POST /session HTTP/1.1
+2019-11-25 10:17:13,509 DEBUG [Forwarding newSession on session null to remote] headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-11-25 10:17:13,510 DEBUG [Forwarding newSession on session null to remote] headers:136 - http-outgoing-0 >> Content-Length: 550
+2019-11-25 10:17:13,510 DEBUG [Forwarding newSession on session null to remote] headers:136 - http-outgoing-0 >> Host: localhost:27941
+2019-11-25 10:17:13,511 DEBUG [Forwarding newSession on session null to remote] headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2019-11-25 10:17:13,513 DEBUG [Forwarding newSession on session null to remote] headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/9.0.1)
+2019-11-25 10:17:13,513 DEBUG [Forwarding newSession on session null to remote] headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-11-25 10:17:13,514 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2019-11-25 10:17:13,515 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-11-25 10:17:13,515 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "Content-Length: 550[\r][\n]"
+2019-11-25 10:17:13,516 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "Host: localhost:27941[\r][\n]"
+2019-11-25 10:17:13,516 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-11-25 10:17:13,517 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/9.0.1)[\r][\n]"
+2019-11-25 10:17:13,518 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-11-25 10:17:13,518 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "[\r][\n]"
+2019-11-25 10:17:13,519 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "{[\n]"
+2019-11-25 10:17:13,519 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2019-11-25 10:17:13,520 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+2019-11-25 10:17:13,520 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    "chromeOptions": {[\n]"
+2019-11-25 10:17:13,521 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "      "args": [],[\n]"
+2019-11-25 10:17:13,521 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "      "extensions": [][\n]"
+2019-11-25 10:17:13,522 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    },[\n]"
+2019-11-25 10:17:13,522 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    "version": "",[\n]"
+2019-11-25 10:17:13,523 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    "platform": "ANY"[\n]"
+2019-11-25 10:17:13,523 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "  },[\n]"
+2019-11-25 10:17:13,524 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2019-11-25 10:17:13,525 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "  "capabilities": {[\n]"
+2019-11-25 10:17:13,525 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2019-11-25 10:17:13,526 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+2019-11-25 10:17:13,526 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "      "chromeOptions": {[\n]"
+2019-11-25 10:17:13,527 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "        "args": [],[\n]"
+2019-11-25 10:17:13,528 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "        "extensions": [][\n]"
+2019-11-25 10:17:13,528 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "      },[\n]"
+2019-11-25 10:17:13,529 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "      "version": "",[\n]"
+2019-11-25 10:17:13,529 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "      "platform": "ANY"[\n]"
+2019-11-25 10:17:13,530 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    },[\n]"
+2019-11-25 10:17:13,530 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2019-11-25 10:17:13,531 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+2019-11-25 10:17:13,531 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2019-11-25 10:17:13,532 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "      {[\n]"
+2019-11-25 10:17:13,533 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+2019-11-25 10:17:13,534 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "      }[\n]"
+2019-11-25 10:17:13,534 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "    ][\n]"
+2019-11-25 10:17:13,535 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 >> "  }[\n]"
+2019-11-25 10:17:13,535 DEBUG [Forwarding newSession on session null to remote] wire:87 - http-outgoing-0 >> "}"
+2019-11-25 10:17:14,607 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2019-11-25 10:17:14,642 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 << "Content-Length:1048[\r][\n]"
+2019-11-25 10:17:14,644 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-11-25 10:17:14,646 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2019-11-25 10:17:14,647 DEBUG [Forwarding newSession on session null to remote] wire:73 - http-outgoing-0 << "[\r][\n]"
+2019-11-25 10:17:14,650 DEBUG [Forwarding newSession on session null to remote] wire:87 - http-outgoing-0 << "{"value":{"error":"session not created","message":"session not created: This version of ChromeDriver only supports Chrome version 76","stacktrace":"Backtrace:\n\tOrdinal0 [0x00217C93+1473683]\n\tOrdinal0 [0x0019ADB1+961969]\n\tOrdinal0 [0x001242E3+475875]\n\tOrdinal0 [0x000BF365+62309]\n\tOrdinal0 [0x000BBC77+48247]\n\tOrdinal0 [0x000D9149+168265]\n\tOrdinal0 [0x000D8D1D+167197]\n\tOrdinal0 [0x000D742B+160811]\n\tOrdinal0 [0x000C0AE6+68326]\n\tOrdinal0 [0x000C1BF0+72688]\n\tOrdinal0 [0x000C1B89+72585]\n\tOrdinal0 [0x001B4B77+1067895]\n\tGetHandleVerifier [0x002B6875+506677]\n\tGetHandleVerifier [0x002B6610+506064]\n\tGetHandleVerifier [0x002BD1B8+533624]\n\tGetHandleVerifier [0x002B704A+508682]\n\tOrdinal0 [0x001AC266+1032806]\n\tOrdinal0 [0x001AC0DF+1032415]\n\tOrdinal0 [0x001B6A8B+1075851]\n\tOrdinal0 [0x001B6BF3+1076211]\n\tOrdinal0 [0x001B5BA5+1072037]\n\tBaseThreadInitThunk [0x779C6359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77D37B74+228]\n\tRtlGetAppContainerNamedObjectPath [0x77D37B44+180]\n\t(No symbol) [0x00000000]\n"}}"
+2019-11-25 10:17:14,666 DEBUG [Forwarding newSession on session null to remote] headers:122 - http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+2019-11-25 10:17:14,667 DEBUG [Forwarding newSession on session null to remote] headers:125 - http-outgoing-0 << Content-Length:1048
+2019-11-25 10:17:14,669 DEBUG [Forwarding newSession on session null to remote] headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-11-25 10:17:14,671 DEBUG [Forwarding newSession on session null to remote] headers:125 - http-outgoing-0 << cache-control:no-cache
+2019-11-25 10:17:14,681 DEBUG [Forwarding newSession on session null to remote] MainClientExec:285 - Connection can be kept alive indefinitely
+2019-11-25 10:17:14,686 DEBUG [Forwarding newSession on session null to remote] PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:27941] can be kept alive indefinitely
+2019-11-25 10:17:14,687 DEBUG [Forwarding newSession on session null to remote] PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:27941][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
